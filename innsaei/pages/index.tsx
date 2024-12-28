@@ -1,7 +1,11 @@
+import Header from "@/components/Header";
+import { useRouter } from "next/router";
+import { useCallback } from "react";
+
 export default function Home() {
   return (
-    <div className="text-3xl text-sky-500">
-      Hello World!
-    </div>
+    <>
+      <Header label="Home" />
+    </>
   )
 }
