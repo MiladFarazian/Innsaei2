@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({label, showBackArrow}) => {
                 <h1 className="text-white text-xl font-semibold">{label}</h1>
             </div>
         </div>
-    );
+    )
 };
 
 export default Header;
